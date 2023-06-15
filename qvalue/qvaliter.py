@@ -31,7 +31,7 @@ def get_q_vals(world,
 def qvalue_iter(world,
                 noise=0.2,
                 gamma=0.99,
-                h=100,
+                h=500,
                 q_star_init=None,
                 verbose=5):
     if q_star_init is not None:
